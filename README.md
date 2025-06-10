@@ -13,14 +13,15 @@ It leverages machine learning to assess and forecast the likelihood of wildfires
   - Wind Speed (Ws)
   - Rain
   - FFMC, DMC, ISI (Fire indexes)
-  - Classes, Region
-  - 
+  - Classes
+  -  Region
+
 Scaled input preprocessing using `StandardScaler`
 Trained ML model: Ridge Regression
 Clean UI built with Flask and HTML
 
 
-FWI Value Means:
+FWI Value Means: Fire Weather Index
 FWI Score	Fire Risk
 0–5	Very Low
 6–15	Low
